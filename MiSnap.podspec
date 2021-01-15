@@ -13,6 +13,6 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
     
   s.subspec 'Standard' do |ss| 
-    ss.vendored_framework = 'MiSnapSDK.framework', 'MobileFlow.framework', 'MiSnapSDKCamera.framework', 'MiSnapSDKMibiData.framework', 'MiSnapSDKScience.framework'
+    ss.vendored_frameworks = 'MiSnapSDK.framework', 'MobileFlow.framework', 'MiSnapSDKCamera.framework', 'MiSnapSDKMibiData.framework', 'MiSnapSDKScience.framework'
   end
 end
