@@ -9,6 +9,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/xiaohengpan/MiSnap.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '' => '' }
+  s.static_framework = true
   s.source           = { :git => 'git@github.com:xiaohengpan/MiSnap.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
     
